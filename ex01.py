@@ -1,0 +1,11 @@
+nome = str(input("Digite o seu nome: "))
+idade = int(input("Digite a sua idade: "))
+sexo = chr(input("Digite o seu sexo em M/F: "))
+endereco = input("Insira o seu endereco: ")
+telefone = int(input("Digite o seu numero de telefone: "))
+
+print(f"O seu nome eh: {nome}")
+print(f"A sua idade eh: {idade}")
+print(f"O seu sexo eh: {sexo}")
+print(f"O seu endereco eh: {endereco}")
+print(f"O seu telefone eh: {telefone}")
